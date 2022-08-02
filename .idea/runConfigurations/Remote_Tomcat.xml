@@ -1,0 +1,72 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="Remote Tomcat" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Remote" APPLICATION_SERVER_NAME="Tomcat 8.5.811" ALTERNATIVE_JRE_ENABLED="false">
+    <option name="HOST" value="HadoopIP" />
+    <option name="LOCAL" value="false" />
+    <option name="UPDATING_POLICY" value="hot-swap-classes" />
+    <deployment>
+      <artifact name="WebApp">
+        <settings>
+          <option name="CONTEXT_PATH" value="/WebApp" />
+        </settings>
+      </artifact>
+    </deployment>
+    <server-settings>
+      <data>
+        <option name="targets">
+          <list>
+            <WatchedTargetModelImpl>
+              <option name="name" value="CONTEXT_XML" />
+              <option name="transportStagingTarget">
+                <TransportTarget>
+                  <option name="id" value="4bc7771e-2b99-4855-9b95-f01a0b1785a5" />
+                  <id>4bc7771e-2b99-4855-9b95-f01a0b1785a5</id>
+                </TransportTarget>
+              </option>
+              <option name="watchedLocalPath" value="" />
+              <watched-path />
+              <name>CONTEXT_XML</name>
+              <transport-target>
+                <TransportTarget>
+                  <option name="id" value="4bc7771e-2b99-4855-9b95-f01a0b1785a5" />
+                  <id>4bc7771e-2b99-4855-9b95-f01a0b1785a5</id>
+                </TransportTarget>
+              </transport-target>
+            </WatchedTargetModelImpl>
+            <StagingTargetModelImpl>
+              <option name="name" value="STAGING" />
+              <option name="stagingRemotePath" value="/usr/local/tomcat/webapps" />
+              <option name="transportStagingTarget">
+                <TransportTarget>
+                  <option name="id" value="c1602b97-4e5f-4e3f-b0e6-2e7f68cde879" />
+                  <id>c1602b97-4e5f-4e3f-b0e6-2e7f68cde879</id>
+                </TransportTarget>
+              </option>
+              <staging-path>/usr/local/tomcat/webapps</staging-path>
+              <name>STAGING</name>
+              <transport-target>
+                <TransportTarget>
+                  <option name="id" value="c1602b97-4e5f-4e3f-b0e6-2e7f68cde879" />
+                  <id>c1602b97-4e5f-4e3f-b0e6-2e7f68cde879</id>
+                </TransportTarget>
+              </transport-target>
+            </StagingTargetModelImpl>
+          </list>
+        </option>
+        <option name="transportHostId" value="fa8c0699-7ad7-4aad-8813-60483f6b71d2" />
+        <host-id>fa8c0699-7ad7-4aad-8813-60483f6b71d2</host-id>
+      </data>
+    </server-settings>
+    <predefined_log_file enabled="true" id="Tomcat" />
+    <predefined_log_file enabled="true" id="TOMCAT_LOCALHOST_LOG_ID" />
+    <RunnerSettings RunnerId="Debug">
+      <option name="DEBUG_PORT" value="9001" />
+      <option name="LOCAL" value="false" />
+    </RunnerSettings>
+    <method v="2">
+      <option name="Make" enabled="true" />
+      <option name="BuildArtifacts" enabled="true">
+        <artifact name="WebApp" />
+      </option>
+    </method>
+  </configuration>
+</component>
